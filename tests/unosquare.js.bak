@@ -18,7 +18,7 @@ module.exports = {
 	  .assert.visible("#name-2a32df81-981f-4329-b943-9f2e76efe5f0")
 	  .assert.title("Agile Collaborative Software Development | Contact Unosquare")
 	  .assert.not.urlContains("Services")
-	  .assert.not.urlEquals("https://www.google.com")
+	  .assert.not.urlEquals("https://www.google.com.co")
 	  .end();
     }
   };
