@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="unosquare.blog.unosquare_blog"
+    errors="0" failures="1" hostname="" id="" package="blog" skipped="0"
+    tests="1" time="11.78" timestamp="">
+  
+    <testcase name="Unosquare blog page validation" classname="unosquare.blog.unosquare_blog" time="11.78" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;Element [name=@resultsTitle]&gt; contains text &#39;RESULTS FOUND FOR THE SEARCH TERM undefined&#39; in 5000ms - expected &#34;contains text &#39;RESULTS FOUND FOR THE SEARCH TERM undefined&#39;&#34; but got: &#34;does not contain &#39;RESULTS FOUND FOR THE SEARCH TERM undefined&#39;&#34; (5315ms)">    at Page.searchInBlog (C:\Users\Yefferson.Salcedo\Documents\Courses\API-UI-Automation-with-NightWatch-JS\First_Test\PageObjects\Unosquare\blog.js:16:19)
+    at Object.Unosquare blog page validation (C:\Users\Yefferson.Salcedo\Documents\Courses\API-UI-Automation-with-NightWatch-JS\First_Test\tests\unosquare\blog\unosquare_blog.js:16:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

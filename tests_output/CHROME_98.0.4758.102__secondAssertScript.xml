@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="secondAssertScript"
-    errors="0" failures="0" hostname="" id="" package="secondAssertScript" skipped="0"
-    tests="1" time="7.833" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="secondAssertScript" skipped="0"
+    tests="1" time="11.89" timestamp="">
   
-    <testcase name="Demo test unosquare" classname="secondAssertScript" time="7.833" assertions="5">
-
-    
-
-    
-
-    
-
-    
+    <testcase name="Demo test unosquare" classname="secondAssertScript" time="11.89" assertions="1">  <failure message="Testing if element &lt;#expect-assertions &gt; span&gt; contains text &#39;assert&#39; in 5000ms - expected &#34;contains text &#39;assert&#39;&#34; but got: &#34;element could not be located&#34; (5156ms)">    at Object.Demo test unosquare (C:\Users\Yefferson.Salcedo\Documents\Courses\API-UI-Automation-with-NightWatch-JS\First_Test\tests\secondAssertScript.js:12:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
 
     
     </testcase>
