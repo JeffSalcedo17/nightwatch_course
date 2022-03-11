@@ -1,0 +1,7 @@
+module.exports = {
+    'Demo test Unosquare' : function(browser) {
+      browser
+      .waitForElementVisible('body')
+      .end();
+    }
+  };

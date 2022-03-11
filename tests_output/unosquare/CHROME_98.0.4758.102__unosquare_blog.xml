@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="unosquare.unosquare_blog"
+    errors="0" failures="1" hostname="" id="" package="unosquare" skipped="0"
+    tests="1" time="0.06200" timestamp="">
+  
+    <testcase name="Unosquare blog page validation" classname="unosquare.unosquare_blog" time="0.06200" assertions="1">  <failure message="unosquareBlog.assert.elementPresent(...).assert.urlEquals(...).assert.visible(...).assert.visible(...).searchInBlog is not a function">TypeError: unosquareBlog.assert.elementPresent(...).assert.urlEquals(...).assert.visible(...).assert.visible(...).searchInBlog is not a function
+    at Object.Unosquare blog page validation (C:\Users\Yefferson.Salcedo\Documents\Courses\API-UI-Automation-with-NightWatch-JS\First_Test\tests\unosquare\unosquare_blog.js:16:8)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
